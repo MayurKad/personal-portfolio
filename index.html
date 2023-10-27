@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Blackrose</title>
+    <script src="https://kit.fontawesome.com/404c9daa8f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+               <img src="BlackRoseup.jpg" class="logo">
+                <ul id="sidemenu">
+                     <li><a href="#header">Home</a></li>
+                     <li><a href="#about">About</a></li>
+                     <li><a href="#contacts">Contact</a></li>
+                     <li><a href="#services">Services</a></li>
+                     <li><a href="#Portfolio">Portfolio</a>m</li>
+                     <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Developer</p>
+                <h1>Hii I'm <span>Mayur Kad</span> <br>from India</h1>
+            </div>
+        </div>
+    </div>
+    <!------------About-------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Untitled design.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Company</h1>
+                    <P>A company is a legally recognized and organized entity that engages 
+                       in commercial, industrial, or service-oriented activities. It typically
+                       consists of a group of individuals or shareholders who pool their
+                       resources, skills, and expertise to achieve common business goals. 
+                       Companies can vary in size and scope, ranging from small, family-owned 
+                       businesses to multinational corporations. They are established to provide 
+                     `   products or services to consumers, and their primary aim is often to 
+                       generate profits. Companies are governed by a set of rules and regulations,
+                       and they have a formal structure, including management teams and employees
+                       responsible for various functions. They play a vital role in the economy,
+                       driving innovation, creating jobs, and contributing to the overall growth 
+                      and development of industries and markets.</P>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                        <p class="tab-links " onclick="opentab('Education')"">Education</p>
+                        <p class="tab-links " onclick="opentab('Experience')"">Experience</p>
+                    </div>
+                    <div class="tab-contents" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaes</li>
+                            <li><span>Web Development</span><br>Web App development</li>
+                            <li><span>App Developer</span><br>Building Android/IOS apps</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>SSC 10th</span><br>64%</li>
+                            <li><span>HSC 12th</span><br>Computer Science 64%</li>
+                            <li><span>Degree</span><br>Active 2year</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>Beginner</span><br>Fresher</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------services---------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-sharp fa-solid fa-code-compare"></i>
+                    <h2>Web Design</h2>
+                    <p>Web design is the art and science of creating visually appealing,
+                        user-friendly, and functional websites. It involves the careful
+                        arrangement of elements like text, images, and interactive features
+                        to ensure a seamless and engaging user experience. </p>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code fa-bounce"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Together, UI/UX design aims to optimize the user's interaction
+                        with digital platforms, resulting in a more engaging and 
+                        effective experience that meets both the user's needs and 
+                        the business's goals.</p>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios fa-spin"></i>
+                    <h2>App Design</h2>
+                    <p>App design is the process of creating the visual and interactive 
+                        elements of a mobile or web application. </p>
+                        <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------Portfolio----------------->
+    <div id="Portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Social media is a digital platform or application that enables
+                             individuals and communities to connect,communicate, and share 
+                             information, photos, videos, and other content with a global 
+                             or targeted audience.</p>
+                             <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>A music app is a software application designed to provide users 
+                            with a convenient and immersive way to access, listen to, and 
+                            manage their favorite music. These apps typically offer an 
+                            extensive library of songs, albums, and playlists, allowing 
+                            users to stream or download music for offline listening. </p>
+                             <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Online shop  App</h3>
+                        <p>An online shop app is a digital platform that enables users to browse,
+                             search for, and purchase a wide range of products and services over
+                              the internet. These apps offer a user-friendly interface, allowing 
+                              customers to explore an extensive catalog of items, from clothing 
+                              and electronics to groceries and more, all from the comfort of their
+                               mobile device or computer. </p>
+                             <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-------------------contacts------------------>
+    <div id="contacts">
+        <div class="cantainer">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>mayurkad8@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>9137307286</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/mayur-kad-547766207/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://discord.com/channels/705799923014041651/814533076524072981"><i class="fa-brands fa-discord"></i></a>
+                        <a href="https://github.com/MayurKad"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://twitter.com/Mayur_kad_1"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                    <a href="Mayur Suresh Kad- Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg">Your message sent successlly</span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &#169; Mayur.</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzVzAbItPbI56eo8DQ-Y89dzGK4SvLHE4Vj7xC0dMnfvKJgorqrU-l0mFXfp7r_Fecl/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
